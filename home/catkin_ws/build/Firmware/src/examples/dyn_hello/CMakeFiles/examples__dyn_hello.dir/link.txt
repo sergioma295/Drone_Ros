@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -O2 -g -DNDEBUG  -shared -Wl,-soname,examples__dyn_hello.px4mod -o /home/sergio/catkin_ws/devel/lib/examples__dyn_hello.px4mod CMakeFiles/examples__dyn_hello.dir/hello.cpp.o  -L/home/sergio/catkin_ws/build/Firmware/external/Install/lib -Wl,-rpath,/home/sergio/catkin_ws/build/Firmware/external/Install/lib 

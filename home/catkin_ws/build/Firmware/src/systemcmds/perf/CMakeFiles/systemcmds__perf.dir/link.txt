@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/sergio/catkin_ws/devel/lib/libsystemcmds__perf.a  CMakeFiles/systemcmds__perf.dir/perf.c.o
+/usr/bin/ranlib /home/sergio/catkin_ws/devel/lib/libsystemcmds__perf.a

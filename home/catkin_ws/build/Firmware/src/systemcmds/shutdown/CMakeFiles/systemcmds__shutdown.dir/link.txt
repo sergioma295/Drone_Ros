@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/sergio/catkin_ws/devel/lib/libsystemcmds__shutdown.a  CMakeFiles/systemcmds__shutdown.dir/shutdown.c.o
+/usr/bin/ranlib /home/sergio/catkin_ws/devel/lib/libsystemcmds__shutdown.a

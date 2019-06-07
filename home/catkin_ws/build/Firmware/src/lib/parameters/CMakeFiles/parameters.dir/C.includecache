@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sergio/catkin_ws/build/Firmware/src/lib/parameters/px4_parameters.c
+px4_parameters.h
+/home/sergio/catkin_ws/build/Firmware/src/lib/parameters/px4_parameters.h
+
+/home/sergio/catkin_ws/build/Firmware/src/lib/parameters/px4_parameters.h
+stdint.h
+-
+parameters/param.h
+-
+
+/home/sergio/catkin_ws/src/Firmware/src/lib/parameters/param.h
+stdint.h
+-
+stdbool.h
+-
+sys/types.h
+-
+cstdio
+-
+

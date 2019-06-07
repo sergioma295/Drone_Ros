@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sergio/catkin_ws/src/Firmware/platforms/posix/include/crc32.h
+sys/types.h
+-
+stdint.h
+-
+
+/home/sergio/catkin_ws/src/Firmware/platforms/posix/src/px4_layer/lib_crc32.c
+sys/types.h
+-
+stdint.h
+-
+crc32.h
+-
+

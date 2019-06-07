@@ -1,10 +1,12 @@
 #!/bin/bash
 
-px4_dir='/home/sergio/src/Firmware'
-
-source $px4_dir/Tools/setup_gazebo.bash $px4_dir $px4_dir/build/posix_sitl_default
-
+cd ~/catkin_ws/src/Firmware
+DONT_RUN=1 make px4_sitl_default gazebo
 source devel/setup.bash
+source Tools/setup_gazebo.bash $(pwd) $(pwd)/build/px4_sitl_default
+export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)
+export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)/Tools/sitl_gazebo
 
-export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$px4_dir
-export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$px4_dir/Tools/sitl_gazebo
+
+
+

@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/sergio/catkin_ws/devel/lib/libpwm_limit.a  CMakeFiles/pwm_limit.dir/pwm_limit.cpp.o
+/usr/bin/ranlib /home/sergio/catkin_ws/devel/lib/libpwm_limit.a

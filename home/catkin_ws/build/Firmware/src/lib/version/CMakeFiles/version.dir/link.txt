@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/sergio/catkin_ws/devel/lib/libversion.a  CMakeFiles/version.dir/version.c.o
+/usr/bin/ranlib /home/sergio/catkin_ws/devel/lib/libversion.a

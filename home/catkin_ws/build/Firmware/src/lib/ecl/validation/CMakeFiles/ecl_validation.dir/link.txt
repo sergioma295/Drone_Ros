@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/sergio/catkin_ws/devel/lib/libecl_validation.a  CMakeFiles/ecl_validation.dir/data_validator.cpp.o CMakeFiles/ecl_validation.dir/data_validator_group.cpp.o
+/usr/bin/ranlib /home/sergio/catkin_ws/devel/lib/libecl_validation.a

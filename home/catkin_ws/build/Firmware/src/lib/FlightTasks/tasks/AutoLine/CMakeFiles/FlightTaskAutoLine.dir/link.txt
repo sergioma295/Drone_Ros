@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/sergio/catkin_ws/devel/lib/libFlightTaskAutoLine.a  CMakeFiles/FlightTaskAutoLine.dir/FlightTaskAutoLine.cpp.o
+/usr/bin/ranlib /home/sergio/catkin_ws/devel/lib/libFlightTaskAutoLine.a

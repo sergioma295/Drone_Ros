@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sergio/catkin_ws/src/Firmware/platforms/posix/src/lockstep_scheduler/include/lockstep_scheduler/lockstep_scheduler.h
+cstdint
+-
+mutex
+-
+vector
+-
+memory
+-
+atomic
+-
+pthread.h
+-
+
+/home/sergio/catkin_ws/src/Firmware/platforms/posix/src/lockstep_scheduler/src/lockstep_scheduler.cpp
+lockstep_scheduler/lockstep_scheduler.h
+-
+

@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/sergio/catkin_ws/devel/lib/libpx4_platform.a  CMakeFiles/px4_platform.dir/module.cpp.o CMakeFiles/px4_platform.dir/px4_getopt.c.o CMakeFiles/px4_platform.dir/px4_cli.cpp.o CMakeFiles/px4_platform.dir/shutdown.cpp.o CMakeFiles/px4_platform.dir/px4_log.c.o
+/usr/bin/ranlib /home/sergio/catkin_ws/devel/lib/libpx4_platform.a
