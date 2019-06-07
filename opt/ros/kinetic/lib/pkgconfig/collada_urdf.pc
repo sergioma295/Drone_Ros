@@ -1,0 +1,8 @@
+prefix=/opt/ros/kinetic
+
+Name: collada_urdf
+Description: Description of collada_urdf
+Version: 1.12.12
+Cflags: -I/opt/ros/kinetic/include -I/usr/include/assimp -I/usr/include/collada-dom2.4/1.5 -I/usr/include/collada-dom2.4 -I/usr/include
+Libs: -L/opt/ros/kinetic/lib -lcollada_urdf -lassimp -lcollada-dom2.4-dp
+Requires: collada_parser geometric_shapes resource_retriever rosconsole urdf

@@ -1,0 +1,8 @@
+prefix=/opt/ros/kinetic
+
+Name: bondcpp
+Description: Description of bondcpp
+Version: 1.8.3
+Cflags: -I/opt/ros/kinetic/include -I/usr/include
+Libs: -L/opt/ros/kinetic/lib -lbondcpp
+Requires: bond roscpp smclib

@@ -1,0 +1,8 @@
+prefix=/opt/ros/kinetic
+
+Name: collada_parser
+Description: Description of collada_parser
+Version: 1.12.12
+Cflags: -I/opt/ros/kinetic/include -I/usr/include/collada-dom2.4/1.5 -I/usr/include/collada-dom2.4
+Libs: -L/opt/ros/kinetic/lib -lcollada_parser -lcollada-dom2.4-dp
+Requires: class_loader rosconsole urdf urdf_parser_plugin

@@ -1,0 +1,8 @@
+prefix=/opt/ros/kinetic
+
+Name: mavros_msgs
+Description: Description of mavros_msgs
+Version: 0.29.2
+Cflags: -I/opt/ros/kinetic/include
+Libs: -L/opt/ros/kinetic/lib 
+Requires: geographic_msgs geometry_msgs message_runtime sensor_msgs std_msgs
