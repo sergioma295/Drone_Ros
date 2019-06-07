@@ -1,0 +1,8 @@
+prefix=/home/sergio/catkin_ws/install
+
+Name: offb
+Description: Description of offb
+Version: 0.0.0
+Cflags: -I/home/sergio/catkin_ws/install/include
+Libs: -L/home/sergio/catkin_ws/install/lib -loffb
+Requires: geometry_msgs mavlink mavros mavros_extras mavros_msgs roscpp std_msgs
